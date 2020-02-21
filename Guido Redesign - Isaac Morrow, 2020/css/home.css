@@ -1,0 +1,84 @@
+#bg-image {
+    /* margin-top: 1vh; */
+    background-image: url("../images/guido-headshot-2019.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    /* background-repeat: no-repeat; */
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    /* position: fixed; */
+
+    z-index: -100;
+    /* border-bottom: 1px solid black; */
+}
+
+#splash-container {
+    /* left: -30%; */
+    /* top: -20%; */
+    position: relative;
+    
+    /* display: relative; */
+    /* border: 2px solid red; */
+    margin-left: 5%;
+
+
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    /* padding: 15px; */
+    border-radius: 15px;
+}
+
+#splash-container h1 {
+    font-family: "Roboto", sans-serif;
+    display: relative;
+    justify-content: left;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    /* color: rgb(89, 158, 50) */
+    color: black;
+}
+
+#splash-container p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+/*  About section */
+
+#about {
+    background-color: white !important;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top: 2px solid grey;
+    /* display: inline; */
+
+}
+
+#content-flex {
+    /* float: right; */
+    /* width: 100%; */
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+audio {
+    margin: auto;
+}
+
+
+footer {
+    margin-top: 0;
+}

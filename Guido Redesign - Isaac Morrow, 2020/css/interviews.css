@@ -1,0 +1,16 @@
+#bg-image {
+    /* background-image: url("../images/PC290078.jpg"); */
+    /* background-image: linear-gradient(green, aqua, 45deg) */
+    /* filter: blur(5px); */
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    z-index: -100;
+}
+
+/* .content {
+    color: rgb(199, 199, 199) !important;
+} */
+

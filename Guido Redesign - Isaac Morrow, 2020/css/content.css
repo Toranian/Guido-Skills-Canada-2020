@@ -1,0 +1,45 @@
+.content {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(89, 158, 50);
+    font-family: "Knewave", sans-serif;
+    
+}
+
+.content h3 {
+    font-size: 35px;
+    /* font-family: "Knewave", sans-serif; */
+    color: rgb(89, 158, 50);
+    /* color: black; */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    /* text-align: left; */
+}
+
+.content a {
+    color: rgb(108, 108, 224);
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: rgb(82, 82, 185);
+    font-weight: bold;
+}
+
+.content ul {
+    /* padding-left: 25px; */
+    margin: auto;
+    /* text-align: center; */
+    /* background-color: rgb(226, 226, 226); */
+    padding: 25px;
+    /* margin-left: 5px; */
+}

@@ -1,0 +1,12 @@
+.content {
+    display: inline-block !important;
+}
+
+.card {
+    display: inline;
+}
+
+td {
+    width: 25%;
+    border: 2px solid green;
+}

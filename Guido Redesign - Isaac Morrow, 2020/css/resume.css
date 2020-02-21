@@ -1,0 +1,28 @@
+.content h3 {
+    text-align: left !important;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black !important;
+    margin-top: 20px;
+    
+}
+
+.content a {
+    color: rgb(108, 108, 224);
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: rgb(82, 82, 185);
+    font-weight: bold;
+}
+
+.content {
+    padding: 25px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.content ul {
+    margin-left: 20px;
+}

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Knewave|Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    width: 100%;
+    /* border: 2px solid red; */
+    /* background-color: rgba(0, 0, 0, 0.8) */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 0px 10px 1px rgb(95, 95, 95);
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0;
+    height: auto;
+    z-index: 100;
+}
+
+nav h1 {
+    color: rgb(89, 158, 50);
+    display: inline-block;
+    font-size: 35px;
+    /* padding: 7px; */
+    font-weight: bold;
+    margin-left: 10%;
+    font-family: "Knewave", sans-serif;
+    padding-top: 3px;
+}
+
+
+#links {
+    float: right;
+    display: block;
+    margin-right: 10%;
+    /* margin: 0; */
+    list-style-type: none;
+    
+}
+
+#links li {
+    display: inline-block;
+}
+
+#links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+    padding: 15px;
+    padding-top: 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 0;
+    /* bottom: 0; */
+}
+
+#links a::after {
+    content: "";
+    height: 4px;
+    display: block;
+    background-color: rgb(89, 158, 50);
+    position: relative;
+    transform: scaleX(0);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#links a:hover::after {
+    transform: scaleX(1.0);
+}
+
+.card {
+    border-radius: 15px;
+    /* border: 2px solid rgb(187, 187, 187); */
+    /* width: 100px; */
+    /* padding: 0 15px 15px 15px; */
+    z-index: -1;
+    /* border-top-right-radius: 15px;
+    border-top-left-radius: 15px; */
+    /* width: 25%; */
+    transition: 0.3s ease-in-out;
+    /* border: 2px solid blue; */
+    display: inline;
+    /* width: 20%; */
+}
+
+
+
+.card img {
+    width: 250px;
+    min-width: 250px;
+
+    
+    height: auto;
+    padding: 0;
+    max-height: 250px;
+    /* border-top-right-radius: 15px; */
+    /* border-top-left-radius: 15px; */
+    /* border: 2px solid red; */
+    transition: 0.3s ease-in-out;
+    border: 2px solid rgb(89, 158, 50);
+    border-radius: 15px;
+}
+
+.card p, .card i {
+    font-size: 18px;
+    padding: 15px;
+    /* align-items: center; */
+    text-align: center;
+    
+}
+
+.card img:hover {
+    transform: translateY(-4px);
+    box-shadow: 5px 5px 10px 0px rgb(95, 95, 95);
+    transform: scale(1.3);
+
+}
+
+.call-to-action {
+    /* font-family: ; */
+    border: 2px solid rgb(73, 129, 41);
+    /* background-color: rgb(89, 158, 50); */
+    background-color: rgba(0, 0, 0,0);
+    color: rgb(73, 129, 41);
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.call-to-action:hover {
+    background-color: rgb(73, 129, 41);
+    cursor: pointer;
+    color: white;
+}
+
+
+footer {
+    height: 20vh;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10vh;
+}

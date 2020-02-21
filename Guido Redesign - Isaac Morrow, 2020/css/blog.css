@@ -1,0 +1,19 @@
+#blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#blog-container h1 {
+    margin-bottom: 1vh;
+}
+
+.call-to-action {
+    margin-top: 3vh;
+}
+
+.center-content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
